@@ -37,11 +37,11 @@ The Samba AD DC module in SVTool provides a simplified interface for configuring
 Options Menu:
 ╔═══════════════════════════════════╗
 ║ [1] Check Requirements            ║
-║ [2] Prepare System               ║
-║ [3] Install Samba                ║
-║ [4] Configure Domain             ║
-║ [9] Advanced Options             ║
-║ [0] Back                         ║
+║ [2] Prepare System                ║
+║ [3] Install Samba                 ║
+║ [4] Configure Domain              ║
+║ [9] Advanced Options              ║
+║ [0] Back                          ║
 ╚═══════════════════════════════════╝
 ```
 
@@ -56,7 +56,7 @@ Options Menu:
 ╔═══════════════════════════════════╗
 ║         ADVANCED OPTIONS          ║
 ╠═══════════════════════════════════╣
-║ [1] Purge Samba                  ║
+║ [1] Purge Samba                   ║
 ║ [0] Back                         ║
 ╚═══════════════════════════════════╝
 ```
