@@ -1,0 +1,5 @@
+colorama==0.4.6
+pyfiglet==1.0.2
+psutil==5.9.5  # Para monitoramento do sistema
+requests==2.31.0  # Para futuras integrações
+python-dotenv==1.0.0  # Para gerenciamento de configurações
