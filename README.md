@@ -1,67 +1,70 @@
-# SVTool - Hub de Scripts para Servidores
+# SVTool CLI - Server Script Hub
 
-Uma ferramenta simples e poderosa para gerenciar seus servidores através de uma interface amigável.
+**SVTool** is a simple yet powerful command-line tool designed to manage Linux servers through a friendly and modular interface.
 
-## 🚀 Começando
+## 🚀 Getting Started
 
-### Testar Sem Instalar
+### Run Without Installing
 
-Quer experimentar o SVTool sem instalar no sistema? Execute:
+Want to try SVTool without installing it system-wide? Simply run:
 
 ```bash
 chmod +x run-dev.sh
 ./run-dev.sh
 ```
 
-Isso iniciará o SVTool em modo de desenvolvimento, sem fazer alterações no seu sistema.
+This will launch SVTool in development mode without making permanent changes to your system.
 
-### Instalação em Um Passo
+### One-Line Installation
 
-Copie e cole o comando abaixo no seu terminal:
+Install SVTool with a single command:
 
 ```bash
-wget -qO- https://raw.githubusercontent.com/seu-repo/svtool/main/quick-install.sh | bash
+wget -qO- https://raw.githubusercontent.com/gustavofalcao1/svtool-cli/main/quick-install.sh | bash
 ```
 
-### Instalação Manual
+### Manual Installation
 
-Se preferir, você pode instalar manualmente:
+Prefer to install manually?
 
-1. Baixe o SVTool:
+1. Clone the repository:
+
 ```bash
-git clone https://github.com/seu-repo/svtool.git
-cd svtool
+git clone https://github.com/gustavofalcao1/svtool-cli.git
+cd svtool-cli
 ```
 
-2. Execute o instalador:
+2. Run the installer:
+
 ```bash
 ./install.sh
 ```
 
-## 📚 Documentação
+## 📚 Documentation
 
-Para informações detalhadas sobre o uso, desenvolvimento e contribuição, consulte nossa [Wiki](docs/wiki/Home.md):
+Full documentation is available in the [Wiki](docs/wiki/Home.md), including:
 
-- [Guia de Início Rápido](docs/wiki/user-guide/QuickStart.md)
-- [Guia de Desenvolvimento](docs/wiki/dev-guide/Development.md)
-- [Padrões de Interface](docs/wiki/dev-guide/UIStandards.md)
-- [Módulos Disponíveis](docs/wiki/user-guide/Modules.md)
+- [Quick Start Guide](docs/wiki/user-guide/QuickStart.md)
+- [Development Guide](docs/wiki/dev-guide/Development.md)
+- [UI Standards](docs/wiki/dev-guide/UIStandards.md)
+- [Available Modules](docs/wiki/user-guide/Modules.md)
 
-## 🛠️ Funcionalidades
+## 🛠️ Features
 
-- **Samba AD DC**: Configuração e gerenciamento de controlador de domínio
-- Mais módulos em desenvolvimento...
+- **Samba AD DC Module**: Configure and manage domain controllers with ease
+- More modules coming soon!
 
-## ⚙️ Requisitos Mínimos
+## ⚙️ Requirements
 
-- Sistema operacional Linux (Ubuntu, Debian, CentOS, etc.)
-- Python 3.6 ou superior
-- Conexão com a internet (apenas para instalação)
+- Linux-based OS (Ubuntu, Debian, CentOS, etc.)
+- Python 3.6+
+- Internet connection (required for installation only)
 
-## 🤝 Contribuindo
+## 🤝 Contributing
 
-Sua contribuição é bem-vinda! Veja nosso [Guia de Contribuição](docs/wiki/dev-guide/Contributing.md) para começar.
+Contributions are welcome! Please refer to the [Contributing Guide](docs/wiki/dev-guide/Contributing.md) to get started.
 
-## 📝 Licença
+## 📝 License
 
-Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
